@@ -1,0 +1,50 @@
+document.addEventListener('DOMContentLoaded', function(){
+    const btnNama = document.getElementById('btnNama');
+    const itemNama = document.getElementById('nama');
+    const itemNamaDua = document.getElementById('namaDua');
+
+    btnNama.addEventListener('click', function(){
+        itemNama.classList.toggle('noneNama');
+        itemNamaDua.classList.toggle('noneNama');
+
+        if(itemNama.classList.contains('noneNama')){
+            btnNama.textContent = 'GANTI NAMA';
+        }else{
+            btnNama.textContent = 'GANTI NAMA';
+        }
+    });
+    console.log(btnNama);
+});
+let nama = 'Fadhil';
+let hobi = 'Membaca';
+let favorit = 'baca buku, gambar, menulis dan jogging';
+let hasil = 'Haloo saya ' + nama + ' hobi saya adalah ' + hobi + ' dan hal yang  paling saya suka adalah ' + favorit;
+
+
+document.getElementById('output').innerHTML = hasil;
+document.getElementById('output-nama').innerHTML = 'Nama: ' + nama;
+document.getElementById('output-hobi').innerHTML = 'Hobi: ' + hobi;
+document.getElementById('output-favorit').innerHTML = 'Favorit: ' + favorit;
+
+
+let nameElement = document.getElementById('name');
+let hobiElement = document.getElementById('hobi');  
+let favoritElement = document.getElementById('favorit');
+
+let btnControl = document.getElementById('btnControl');
+
+btnControl.addEventListener('click', function() {
+    nameElement.classList.toggle('hide-content');
+    hobiElement.classList.toggle('hide-content');
+    favoritElement.classList.toggle('hide-content');
+
+    if (nameElement.classList.contains('hide-content')) {
+        btnControl.textContent = 'Lihat';
+    } else {
+        btnControl.textContent = 'sembunyikan';
+    }
+})
+let dataPribadi = ["ganteng", "pintar", "jago olah raga","baik hati"];
+
+document.getElementById('out-aray').innerHTML = "saya " + dataPribadi[0] + " hobi saya adalah " + dataPribadi[2];
+

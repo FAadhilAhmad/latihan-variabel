@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    margin: 25px 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.container-sec {
+    border-radius: 10px;
+    width: 600px;
+    margin: 10px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategrey;
+}
+.judul{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(72, 72, 152);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* oprasi DOM */
+.nama{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: rgb(72, 72, 152);
+    padding: 10px;
+    border-radius: 10px;
+}
+.namaDua{
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(72, 72, 152);
+}
+.noneNama{
+    display: none;
+}
+/* oprasi DOM end */
+.icon img{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    justify-self: center;
+    padding: 10px;
+    margin: 20px;
+}
+.deskripsi{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.btn-gantiNama{
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: tomato;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* out put  */
+.output{
+    width: 600px;
+    background-color: rgb(122, 122, 243);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-self: center;
+    color: #fff;
+}
+/* biodata ke dua */
+.container-biodata {
+    width: 600px;
+    padding: 25px;
+    display: flex;
+    justify-self: center;
+    margin: 10px;
+}
+.name{
+    width: 20%;
+    background-color: rgb(72, 72, 152);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.hobi{
+    width: 20%;
+    background-color: rgb(72, 72, 152);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+}
+.favorit{
+    width: 60%;
+    background-color: rgb(72, 72, 152);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.hide-content {
+    display: none;
+}
+
+.btnControl{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    width: 20%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border: none;
+    background-color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+}
+/* end biodata ke dua */
+
+/* styling output aray */
+.out-aray{
+    display: flex;
+    justify-self: center;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 1000px;
+    padding: 20px;
+    width: 600px;
+    background-color: rgb(122, 122, 243);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
