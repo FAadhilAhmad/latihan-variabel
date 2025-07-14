@@ -154,11 +154,189 @@ body {
     justify-self: center;
     border-radius: 10px;
     margin: 10px;
-    margin-bottom: 1000px;
+    margin-bottom: 100px;
     padding: 20px;
     width: 600px;
     background-color: rgb(122, 122, 243);
     color: #fff;
     font-size: 20px;
     font-weight: bold;
+}
+
+/* styleling from biodata */
+
+/* style from nama */
+.container-from{
+    width: 600px;
+    padding: 25px;
+    display: flex;
+    justify-self: center;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.header-from{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(72, 72, 152);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.from-nama{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(72, 72, 152);
+}
+.from-nama input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.from-nama label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* end styling from nama */
+
+/* styling from hobi */
+.from-hobi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(72, 72, 152);
+}
+.from-hobi label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.from-hobi input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+/* style from hobi end */
+
+/* styling from flimFavorit */
+.from-flimFavorit{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(72, 72, 152);
+}
+.from-flimFavorit label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.from-flimFavorit input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+/* stling from flimFavorit end */
+.btn-submit{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(72, 72, 152);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* end styling from flimFavorit */
+
+/* end styleling from biodata */
+
+/* styllin container output */
+.container-output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    width: 600px;
+    padding: 25px;
+    margin: 10px;
+    background-color: lightslategrey;
+    justify-self: center;
+    border-radius: 10px;
+}
+.header-output{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(72, 72, 152);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.output-nama{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: rgb(72, 72, 152);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.output-hobi{
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(72, 72, 152);
+    font-weight: bold;
+}
+.output-flimFavorit{
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(72, 72, 152);
+    font-weight: bold;
+}
+.hide-container{
+    display: none;
 }
