@@ -48,3 +48,26 @@ let dataPribadi = ["ganteng", "pintar", "jago olah raga","baik hati"];
 
 document.getElementById('out-aray').innerHTML = "saya " + dataPribadi[0] + " hobi saya adalah " + dataPribadi[2];
 
+// funtion from
+let outputNama = document.getElementById('output-namaFrom');
+let outputHobi = document.getElementById('output-hobiFom');
+let outputFavorit = document.getElementById('output-flimFavorit');
+let btnSubmit = document.getElementById('btn-submit');
+let hideContainer = document.getElementById('container-output');
+
+
+
+btnSubmit.addEventListener('click', function() {
+    let inputNama = document.getElementById('input-nama').value;
+    outputNama.innerHTML =  inputNama;
+
+    let inputHobi = document.getElementById('input-hobi').value;
+    outputHobi.innerHTML = inputHobi;
+    
+    let inputFavorit = document.getElementById('input-flimFavorit').value;
+    outputFavorit.innerHTML = inputFavorit;
+
+    hideContainer.classList.remove('hide-container');
+  
+
+});
