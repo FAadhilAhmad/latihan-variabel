@@ -71,3 +71,19 @@ btnSubmit.addEventListener('click', function() {
   
 
 });
+// end funtion from
+
+let dataCharacter = [];
+let btnArray = document.getElementById('btn-array');
+
+btnArray.addEventListener('click', function() {
+    let inputCharacter = document.getElementById('character').value;
+    let inputRole = document.getElementById('role').value;
+
+    dataCharacter.push({
+        character: inputCharacter,
+        role: inputRole
+    });
+    console.log(dataCharacter);
+});
+
