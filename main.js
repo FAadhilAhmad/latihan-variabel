@@ -87,3 +87,26 @@ btnArray.addEventListener('click', function() {
     console.log(dataCharacter);
 });
 
+// end function array
+let dataChampion = [];
+const btnChampion = document.getElementById('btn-arrayDua');
+
+function tampilkanArray(){
+    let outputChampion = '';
+
+    dataChampion.forEach(function(item, index){
+        outputChampion += `<div> ${index + 1}. ${item.champion} - ${item.skin}</div>`;
+    });
+    document.getElementById('hasilData').innerHTML = outputChampion;
+}
+btnChampion.addEventListener('click', function() {
+    let inputChampion = document.getElementById('champion').value;
+    let inputSkin = document.getElementById('skin').value;
+
+    dataChampion.push({
+        champion: inputChampion,
+        skin: inputSkin
+    });
+    tampilkanArray();
+    
+});
