@@ -413,3 +413,92 @@ body {
     color: #fff;
     font-weight: bold;
 }
+/* end styling from array */
+.container-fromSatu{
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightslategrey;
+    justify-self: center;
+    border-radius: 10px;
+}
+.header-fromSatu{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(230, 115, 115);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.input-champion{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(72, 72, 152);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.input-champion input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #2c2a2a;
+}
+.input-item{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(72, 72, 152);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.input-item input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #2c2a2a;
+}
+.btn-arrayDua{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(72, 72, 152);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hasilData{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(122, 122, 243);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.hideHasil{
+    display: none;
+}
